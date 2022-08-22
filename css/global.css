@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+   display: flex;
+   flex-direction: column;
+
+   /* justify-content: space-between; */
+    background-color: teal;
+    background:url(https://images.unsplash.com/photo-1616919954110-a94268e70f6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* 设置最低高度以填充整个屏幕 */
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25vw;
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+.btn-nav {
+    font-family: arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.29);
+    display: inline-block;
+    padding: 1vw;
+    border: 1px ;
+    text-decoration: none;
+}
+
+.btn-sec {
+    display: inline-block;
+    /* flex-direction:column; */
+    margin: 4vw;
+    text-decoration: none;
+    font-size: 4vw;
+    color: rgba(3, 3, 3, 0.693);
+    background-color: rgba(106, 136, 202, 0.511);
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content:center; */
+    /* min-height: 100vh; */
+    margin: 2rem;
+    margin-top: 2rem;
+}
+
+footer {
+    margin-top:auto;
+    /* 填充margin之上的内容 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* 使用宽度来选定区间 */
+}
+
+footer div a {
+    margin: 1em;
+}
+
+
