@@ -10,6 +10,7 @@ body {
    flex-direction: column;
     background-color: teal;
     /* background:url(https://images.unsplash.com/photo-1616919954110-a94268e70f6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) center no-repeat; */
+    background: url(https://images.unsplash.com/photo-1530176928500-2372a88e00b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
     background-size: cover;
     min-height: 100vh;
     /* 设置最低高度以填充整个屏幕 */
@@ -19,6 +20,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.25vw;
 }
 
@@ -29,7 +31,7 @@ header {
 
 .btn-nav {
     font-family: arial, Helvetica, sans-serif;
-    color: rgba(255, 255, 255, 0.29);
+    color: rgba(0, 0, 0, 0.532);
     display: inline-block;
     padding: 1vw;
     border: 1px ;
@@ -41,8 +43,8 @@ header {
     margin: 4vw;
     text-decoration: none;
     font-size: 4vw;
-    color: rgba(3, 3, 3, 0.693);
-    background-color: rgba(106, 136, 202, 0.511);
+    color: rgba(3, 3, 3, 0.789);
+    background-color: rgba(106, 136, 202, 0.541);
 }
 
 main p {
@@ -55,8 +57,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 2rem;
-    margin-top: 2rem;
+    margin: 3rem;
+    margin-top: 4rem;
 }
 
 footer {
