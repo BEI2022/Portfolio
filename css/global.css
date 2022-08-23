@@ -38,29 +38,6 @@ header {
     text-decoration: none;
 }
 
-.btn-sec {
-    display: inline-block;
-    margin: 4vw;
-    text-decoration: none;
-    font-size: 4vw;
-    color: rgba(3, 3, 3, 0.789);
-    background-color: rgba(106, 136, 202, 0.541);
-}
-
-main p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 6vw;
-    font-weight: bold;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 3rem;
-    margin-top: 4rem;
-}
-
 footer {
     margin-top:auto;
     /* 填充margin之上的内容 */
