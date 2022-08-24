@@ -1,9 +1,9 @@
 .btn-sec {
     display: inline-block;
     margin: 4vw;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 4vw;
-    color: rgba(3, 3, 3, 0.789);
+    color: rgba(231, 19, 19, 0.816);
     background-color: rgba(106, 136, 202, 0.541);
 }
 
