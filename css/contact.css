@@ -5,19 +5,19 @@ main {
 }
 
 .card {
-    border: 1px solid white;
-    margin: 1vw;
+    /* background-color: white; */
+    border: 1px solid black;
+    margin: 2vw;
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* height: 700px; */
-    /* margin-bottom: auto; */
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
 }
 
 .photo {
-    width: 100%;
+    width: 50%;
     max-height: 40%;
-    /* object-fit: ; */
     border-radius: 50%;
     padding: 3vw;
 }
@@ -26,7 +26,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 50%; */
 }
 
 main div h1 {
@@ -48,14 +47,14 @@ main div p {
     text-align: center;
     font-size: 4vw;
     font-weight: 100;
-    /* flex-wrap: wrap; */
     padding: 4vw;
 }
 
 .Email {
-    background-color: rgba(255, 255, 255, 0.371);
-    /* border: 1px solid white; */
+    background-color: #df6d3046;
     font-style: italic;
+    border: 1px #df6d3046;
+    border-radius: 1rem;
     width: 80%;
     padding: 4vw;
 }
@@ -67,7 +66,7 @@ main div p {
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 10vw;
+    font-size: 8vw;
     padding: 4vw;
 }
 form {
@@ -75,22 +74,25 @@ form {
     flex-direction: column;
 }
 label {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     font-style: italic;
     margin: 2vw;
 }
 
-input {
+textarea  {
     margin: 2vw;
-    width: 80%;
-    height: 3rem;
+    max-width: 80%;
+    /* height: 2rem; */
 }
 
-.massage {
-    height: 7rem;
-}
 .submit {
-    background-color: rgba(95, 158, 160, 0.436);
+    font-weight: bold;
+    background-color: rgba(194, 66, 11, 0.177);
     width: 30%;
+    height: 4rem;
+    margin: 1rem;
+    border-radius: 1rem ;
+    border: 1px solid black;
+
 }
