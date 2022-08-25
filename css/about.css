@@ -4,9 +4,15 @@ main {
     align-items: center;
 }
 
+main img {
+    width: 50%;
+    height: 30%;
+}
+
 main p {
     font-family: lato, Helvetica, sans-serif;
-    font-size: 4vw;
+    font-weight: 100;
+    font-size: 2rem;
     font-weight: 100;
     padding: 0.5rem;
     margin: 2%;
@@ -15,8 +21,13 @@ main p {
 
 main h2 {
     font-family: Bree+Serif, sans-serif;
-    font-size: 6vw;
+    font-size: 3rem;
     font-weight: bold;
     font-style: italic;
     margin: 2%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+
 }

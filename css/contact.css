@@ -7,92 +7,168 @@ main {
 .card {
     /* background-color: white; */
     border: 1px solid black;
-    margin: 2vw;
+    margin: 2rem;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 4px 4px 7px black;
 }
 
 .photo {
     width: 50%;
     max-height: 40%;
     border-radius: 50%;
-    padding: 3vw;
+    padding: 0.5rem;
 }
 
 .para {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-main div h1 {
+main h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 10vw;
-    padding: 4vw;
+    font-size: 2rem;
+    padding: 2rem;
     
 }
 main h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 5vw;
-    padding: 4vw;
+    font-style: italic;
+    font-size: 1.25rem;
+    padding: 1.5rem;
 }
 
 main div p {
     font-family: Verdana,Tahoma, sans-serif;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2rem;
     font-weight: 100;
-    padding: 4vw;
+    padding: 2rem;
 }
 
 .Email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: #df6d3046;
     font-style: italic;
     border: 1px #df6d3046;
     border-radius: 1rem;
-    width: 80%;
-    padding: 4vw;
+    font-size: 1rem;
+    width: 100%;
+    /* padding: 4rem; */
 }
 
 .icon {
     text-align: center;
-    padding: 5vw;
+    padding: 5rem;
+}   
+
+.icon img {
+    width: 2rem;
+    height: 2rem;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 8vw;
-    padding: 4vw;
+    font-size: 2.5rem;
+    padding: 2rem 0rem;
 }
 form {
     display: flex;
     flex-direction: column;
 }
+
+
 label {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     font-style: italic;
-    margin: 2vw;
+    margin: 0.5rem;
 }
 
 textarea  {
-    margin: 2vw;
+    margin: 0.5rem;
     max-width: 80%;
-    /* height: 2rem; */
 }
 
 .submit {
+    font-size: 2rem;
     font-weight: bold;
     background-color: rgba(194, 66, 11, 0.177);
     width: 30%;
     height: 4rem;
     margin: 1rem;
     border-radius: 1rem ;
-    border: 1px solid black;
+    border: 1px black;
 
+}
+
+
+@media screen and (min-width: 828px) and (max-width: 1024px) {
+.photo {
+        width: 60%;
+        max-height: 40%;
+        border-radius: 50%;
+        padding: 3rem;
+}
+
+main h1 {
+    font-size: 4rem;
+    padding: 4rem;
+    
+}
+
+main h4 {
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+main div p {
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 2rem;
+}
+
+.Email {
+    border-radius: 1rem;
+    font-size: 2rem;
+    width: 80%;
+    padding: 4rem;
+}
+
+.icon {
+    text-align: center;
+    padding: 5rem;
+}   
+
+.icon img {
+    width: 4rem;
+    height: 4rem;
+}
+
+h2 {
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+label {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+textarea  {
+    margin: 1.5rem;
+    height: 3rem;
+}
+#message {
+    height: 8rem;
+}
 }
