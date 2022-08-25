@@ -41,6 +41,7 @@ main div h3 {
 }
 
 main div p {
+    font-family: 'DynaPuff', cursive;
     text-align: left;
     margin: 0.4rem;
 }

@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Silkscreen&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,7 +10,6 @@ body {
    display: flex;
    flex-direction: column;
     background-color: teal;
-    /* background:url(https://images.unsplash.com/photo-1616919954110-a94268e70f6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) center no-repeat; */
     background: url(https://images.unsplash.com/photo-1530176928500-2372a88e00b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
     background-size: cover;
     min-height: 100vh;
@@ -19,23 +19,37 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
     margin: 1vw;
 }
 
 #logo {
+    /* display: flex; */
     border-radius: 50%;
     padding: 0.25rem;
+    height: 5rem;
 }
 
-.btn-nav {
+header div {
     font-family: arial, Helvetica, sans-serif;
-    color: rgba(0, 0, 0, 0.532);
-    display: inline-block;
-    padding: 1vw;
+    display: inline;
+    flex-direction: row;
+    justify-content:space-between;
+    /* flex-wrap: wrap; */
+    /* align-items: flex-end; */
+    width: 100%;
+    font-size: 6vw;
+    padding: 2vw;
     border: 1px ;
+}
+
+header div a {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.397);
     text-decoration: none;
+    /* display: flex; */
 }
 
 footer {
