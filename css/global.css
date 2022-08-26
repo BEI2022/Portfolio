@@ -104,5 +104,37 @@ footer p {
 }
 
 @media screen and (min-width: 1025px) {
-    
+
+header {
+    display: flex;
+    margin: 1rem;
+}
+
+#logo {
+    height: 6rem;
+    width: 6rem;
+}
+
+nav {
+    font-family: arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    font-size: 3rem;
+    padding: 2rem;
+    border: 1px ;
+}
+
+header nav a {
+    color: rgba(0, 0, 0, 0.397);
+    text-decoration: none;
+    padding: 0 3rem;
+}
+
+footer img {
+    width: 4rem;
+    height: 4rem;
+}
+
 }
