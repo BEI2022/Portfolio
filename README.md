@@ -51,7 +51,7 @@ The main function can realize the screen size switching between mobile , tablets
 
 #### contact page 
 
-<img src="./docs/Mobile Contact wireframe.png" width="400" ><img src="../docs/mobile-contact.png" width="400" >
+<img src="./docs/Mobile Contant wireframe.png" width="400" ><img src="./docs/mobile-contact.png" width="400" >
 
 ### tablet view
 
@@ -73,7 +73,7 @@ The main function can realize the screen size switching between mobile , tablets
 
 #### contact page 
 
-<img src="./docs/Mobile Contact wireframe.png" width="400" ><img src="./docs/images/tablet-contact.png" width="400" >
+<img src="./docs/Mobile Contant wireframe.png" width="400" ><img src="./docs/tablet-contact.png" width="400" >
 
 ### desktop view
 
