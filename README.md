@@ -1,5 +1,5 @@
 ## Github 
-https://github.com/BEI2022/Portfolio.git
+https://github.com/BEI2022/portfolio.git
 _________________________________________
 ## Portfolio 
 
