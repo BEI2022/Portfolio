@@ -12,7 +12,7 @@ main img {
 main p {
     font-family: lato, Helvetica, sans-serif;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 100;
     padding: 0.5rem;
     margin: 2%;
@@ -21,7 +21,7 @@ main p {
 
 main h2 {
     font-family:'DynaPuff', cursive,sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-style: italic;
     margin: 2%;

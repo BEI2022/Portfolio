@@ -60,7 +60,7 @@ footer {
 }
 
 footer p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -95,12 +95,12 @@ nav {
 }
 
 footer img {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 footer p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 }
 
@@ -122,7 +122,7 @@ nav {
     flex-direction: row;
     justify-content:flex-end;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 2rem;
     border: 1px ;
 }
@@ -134,8 +134,8 @@ header nav a {
 }
 
 footer img {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 }

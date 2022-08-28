@@ -1,6 +1,6 @@
 main p {
     font-family: 'DynaPuff', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     padding: 2rem;
 }
@@ -39,10 +39,10 @@ main {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 main p {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .btn-sec {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: black;
     margin: 1rem;
     border: 1px ;
@@ -69,7 +69,7 @@ main p {
     }
 
     .btn-sec {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin: 1rem;
         border: 1px ;
         border-radius: 0.5rem;
@@ -78,7 +78,7 @@ main p {
     }
 
     main p {
-        font-size: 6rem;
+        font-size: 3rem;
     }
 
 

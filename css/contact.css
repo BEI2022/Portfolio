@@ -128,21 +128,21 @@ textarea  {
 
 @media screen and (min-width: 828px) and (max-width: 1024px) {
 .photo {
-        width: 60%;
+        /* width: 60%; */
         max-height: 40%;
-        border-radius: 50%;
+        border-radius: 40%;
         padding: 3rem;
 }
 
 main h1 {
-    font-size: 4rem;
-    padding: 4rem;
+    font-size: 3rem;
+    padding: 3rem;
     
 }
 
 main h4 {
-    font-size: 3rem;
-    padding: 3rem;
+    font-size: 2rem;
+    padding: 2rem;
 }
 
 main div p {
@@ -164,17 +164,17 @@ main div p {
 }   
 
 .icon img {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 2rem;
 }
 
 label {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem;
 }
 
@@ -202,18 +202,18 @@ textarea  {
     }
 
     main h1 {
-        font-size: 6rem;
-        padding: 4rem;
+        font-size: 3rem;
+        padding: 3rem;
         
     }
     
     main h4 {
-        font-size: 4rem;
-        padding: 3rem;
+        font-size: 2rem;
+        padding: 2rem;
     }
     
     main div p {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 100;
         padding: 2rem;
     }
@@ -224,7 +224,7 @@ textarea  {
         align-items: center;
         text-align: center;
         border-radius: 1rem;
-        font-size: 3rem;
+        font-size: 2rem;
         width: 80%;
         padding: 4rem;
     }
@@ -236,8 +236,8 @@ textarea  {
     }   
     
     .icon img {
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     form {
